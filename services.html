@@ -1,0 +1,44 @@
+
+<input type="button" value="View message" onclick="message()" />
+
+<script>
+onerror = handleErr;
+var txt = "";   // declare variable
+
+function handleErr(msg, url, l) {
+  txt = "There was an error on this page.\n\n";
+  txt += "Error: " + msg + "\n";
+  txt += "URL: " + url + "\n";
+  txt += "Line: " + l + "\n\n";
+  txt += "Click OK to continue.\n\n";
+  alert(txt);
+  return true;
+}
+
+function message() {
+   adddlert("Welcome guest!");
+}
+</script>
+
+
+<button onclick="message()"    >check message </button>
+
+
+<script>
+    onerror = mhy;
+    let txt = "";
+
+    function mhy(msg,url,l){
+        txt += "error" + msg + "\n";
+        txt += "url" + url + "\n";
+        txt += "on line " + l + "\n";
+        alert (txt);
+        return true;
+
+
+        function message(){
+            aletrrt("welcome")
+        }
+    }
+
+</script>
